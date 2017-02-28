@@ -7,7 +7,6 @@ extends(src='layout.sgr')
     p Example of "smart quotes" -- and dashes
     h1 what else I can do?
     hr
-
     h3 Getting Started
     h4 The Stack:
     ul
