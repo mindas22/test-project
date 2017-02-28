@@ -1,4 +1,4 @@
 extends(src='layout.sgr')
   block(name='content')
-    h2 This is just spike test 2
+    h2 This is just spike test 3
     p(md) I like **it**
