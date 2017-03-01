@@ -4,16 +4,22 @@ h2
   border: 1px dashed red
   width: 150px
 .container
-  width: 600px
+  max-width: 700px
   margin: 0 auto
   background: #e0e6cc
   box-shadow: 0 0 10px #b4b080
-  padding: 20px 0 50px
-  max-width: 860px
-  width: 100%
+  padding: 20px 50px
   height: auto
   & a
     color: #b42322
     text-decoration: none
-  li
-    color: brown
+@media (max-width: 700px)
+  body
+    background-color: #e0e6cc
+    width: auto
+    margin: 0 auto
+    border-radius: 0
+    padding: 1em
+  .container
+    box-shadow: none
+    padding: 0
