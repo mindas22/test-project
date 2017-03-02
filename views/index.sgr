@@ -11,3 +11,6 @@ block(name='content')
       li
         a(href="https://dublinpc.ie") dublinpc.ie
         |  - kompiuterių remontas ir problemų sprendimas Airijoje.
+      li
+        a(href="https://anastasija.lt") anastasija.lt
+        |  - V.Megre knygos - Anastasija
